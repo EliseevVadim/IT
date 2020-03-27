@@ -40,7 +40,7 @@ namespace LW2
             else
             {
                 List<string> loginscheck = new List<string>();
-                StreamReader readlogins = File.OpenText(@"C:\Users\User\source\repos\LW2\LW2\logins.txt");
+                StreamReader readlogins = File.OpenText(@"C:\Users\User\source\repos\IT\LW2\LW2\logins.txt");
                 while (!readlogins.EndOfStream)
                 {
                     loginscheck.Add(readlogins.ReadLine());
@@ -51,15 +51,15 @@ namespace LW2
                     MessageBox.Show("The user with this username already exists");
                     return;
                 }
-                StreamWriter toLogins = File.AppendText(@"C:\Users\User\source\repos\LW2\LW2\logins.txt");               
+                StreamWriter toLogins = File.AppendText(@"C:\Users\User\source\repos\IT\LW2\LW2\logins.txt");               
                 logins.Add(textBox1.Text);
                 passwords.Add(textBox2.Text);
                 toLogins.WriteLine(textBox1.Text);
                 toLogins.Close();
-                StreamWriter toPasswords = File.AppendText(@"C:\Users\User\source\repos\LW2\LW2\passwords.txt");
+                StreamWriter toPasswords = File.AppendText(@"C:\Users\User\source\repos\IT\LW2\LW2\passwords.txt");
                 toPasswords.WriteLine(textBox2.Text);
                 toPasswords.Close();
-                StreamWriter writer = File.CreateText(@"C:\Users\User\source\repos\LW2\LW2\Users\" + textBox1.Text + ".txt");
+                StreamWriter writer = File.CreateText(@"C:\Users\User\source\repos\IT\LW2\LW2\Users\" + textBox1.Text + ".txt");
                 DialogResult = DialogResult.OK;
                 //Form2 form2 = new Form2();
                 //form2.ShowDialog();
