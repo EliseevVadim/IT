@@ -36,13 +36,13 @@ namespace LW2
         {
             List<string> logins = new List<string>();
             List<string> passwords = new List<string>();
-            StreamReader readlogins = File.OpenText(@"C:\Users\User\source\repos\LW2\LW2\logins.txt");
+            StreamReader readlogins = File.OpenText(@"C:\Users\User\source\repos\IT\LW2\LW2\logins.txt");
             while (!readlogins.EndOfStream)
             {
                 logins.Add(readlogins.ReadLine());
             }
             readlogins.Close();
-            StreamReader readpassords = File.OpenText(@"C:\Users\User\source\repos\LW2\LW2\passwords.txt");
+            StreamReader readpassords = File.OpenText(@"C:\Users\User\source\repos\IT\LW2\LW2\passwords.txt");
             while (!readpassords.EndOfStream)
             {
                 passwords.Add(readpassords.ReadLine());
