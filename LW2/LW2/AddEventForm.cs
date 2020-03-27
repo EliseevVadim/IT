@@ -54,7 +54,7 @@ namespace LW2
             {
                 MessageBox.Show("Correct!");
                 
-                StreamWriter writer = File.AppendText(@"C:\Users\User\source\repos\LW2\LW2\Users\"+text);                
+                StreamWriter writer = File.AppendText(@"C:\Users\User\source\repos\IT\LW2\LW2\Users\"+text);                
                 writer.WriteLine($"{Date}/ {Text}/ {GetType(comboBox1.Text)}/ {Time}/");
                 writer.Close();
                 Test.callbackEventHandler(new Event() { date = Date, text = Text, type = GetType(comboBox1.Text), time=Time });
