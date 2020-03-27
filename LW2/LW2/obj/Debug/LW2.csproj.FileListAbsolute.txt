@@ -1,0 +1,16 @@
+C:\Users\User\source\repos\LW2\LW2\bin\Debug\LW2.exe.config
+C:\Users\User\source\repos\LW2\LW2\bin\Debug\LW2.exe
+C:\Users\User\source\repos\LW2\LW2\bin\Debug\LW2.pdb
+C:\Users\User\source\repos\LW2\LW2\obj\Debug\LW2.csprojAssemblyReference.cache
+C:\Users\User\source\repos\LW2\LW2\obj\Debug\LW2.Form1.resources
+C:\Users\User\source\repos\LW2\LW2\obj\Debug\LW2.Properties.Resources.resources
+C:\Users\User\source\repos\LW2\LW2\obj\Debug\LW2.csproj.GenerateResource.cache
+C:\Users\User\source\repos\LW2\LW2\obj\Debug\LW2.exe
+C:\Users\User\source\repos\LW2\LW2\obj\Debug\LW2.pdb
+C:\Users\User\source\repos\LW2\LW2\obj\Debug\LW2.Form2.resources
+C:\Users\User\source\repos\LW2\LW2\obj\Debug\LW2.Registration.resources
+C:\Users\User\source\repos\LW2\LW2\obj\Debug\LW2.OrganaizerForm.resources
+C:\Users\User\source\repos\LW2\LW2\obj\Debug\LW2.AddEventForm.resources
+C:\Users\User\source\repos\LW2\LW2\obj\Debug\LW2.FindForm.resources
+C:\Users\User\source\repos\LW2\LW2\obj\Debug\LW2.EditEventForm.resources
+C:\Users\User\source\repos\LW2\LW2\obj\Debug\LW2.AskForm.resources
