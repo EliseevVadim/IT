@@ -137,7 +137,7 @@ namespace LW2
             {
                 listView1.Items.Clear();
                 events.Clear();
-                StreamReader reader = File.OpenText(@"C:\Users\User\source\repos\LW2\LW2\Users\" + text);
+                StreamReader reader = File.OpenText(@"C:\Users\User\source\repos\IT\LW2\LW2\Users\" + text);
                 while (!reader.EndOfStream)
                 {
                     string[] arr = reader.ReadLine().Split(new char[] { '/' }, StringSplitOptions.RemoveEmptyEntries);
@@ -273,15 +273,15 @@ namespace LW2
                 if (form.ShowDialog() == DialogResult.Yes)
                 {
                     List<string> fromfile = new List<string>();
-                    StreamReader reader = File.OpenText(@"C:\Users\User\source\repos\LW2\LW2\Users\" + text);
+                    StreamReader reader = File.OpenText(@"C:\Users\User\source\repos\IT\LW2\LW2\Users\" + text);
                     while (!reader.EndOfStream)
                     {
                         fromfile.Add(reader.ReadLine());
                     }
                     reader.Close();
-                    File.Delete(@"C:\Users\User\source\repos\LW2\LW2\Users\" + text);
+                    File.Delete(@"C:\Users\User\source\repos\IT\LW2\LW2\Users\" + text);
                     fromfile.Remove(fromfile[listView1.FocusedItem.Index]);
-                    StreamWriter writer = File.AppendText(@"C:\Users\User\source\repos\LW2\LW2\Users\" + text);
+                    StreamWriter writer = File.AppendText(@"C:\Users\User\source\repos\IT\LW2\LW2\Users\" + text);
                     for (int i = 0; i < fromfile.Count; i++)
                     {
                         writer.WriteLine(fromfile[i]);
