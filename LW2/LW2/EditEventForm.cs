@@ -98,15 +98,15 @@ namespace LW2
             {
                 MessageBox.Show("Correct!");
                 List<string> fromfile = new List<string>();
-                StreamReader reader = File.OpenText(@"C:\Users\User\source\repos\LW2\LW2\Users\" + text);
+                StreamReader reader = File.OpenText(@"C:\Users\User\source\repos\IT\LW2\LW2\Users\" + text);
                 while (!reader.EndOfStream)
                 {
                     fromfile.Add(reader.ReadLine());
                 }                
                 reader.Close();
-                File.Delete(@"C:\Users\User\source\repos\LW2\LW2\Users\" + text);
+                File.Delete(@"C:\Users\User\source\repos\IT\LW2\LW2\Users\" + text);
                 fromfile[ind] = $"{Date}/ {Text}/ {GetType(comboBox1.Text)}/ {Time}/";
-                StreamWriter writer = File.AppendText(@"C:\Users\User\source\repos\LW2\LW2\Users\" + text);
+                StreamWriter writer = File.AppendText(@"C:\Users\User\source\repos\IT\LW2\LW2\Users\" + text);
                 for (int i = 0; i < fromfile.Count; i++)
                 {
                     writer.WriteLine(fromfile[i]);
